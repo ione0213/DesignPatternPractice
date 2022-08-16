@@ -1,9 +1,9 @@
 package strategypattern
 
 fun main() {
-    val pikachu = PokemonContext("Pikachu", Secret01())
-    val Pidgey = PokemonContext("Pidgey", Secret02())
-    val Lapras = PokemonContext("Lapras", Secret03())
+    val pikachu = PokemonContext("Pikachu", SecretType.CUT)
+    val Pidgey = PokemonContext("Pidgey", SecretType.FLY)
+    val Lapras = PokemonContext("Lapras", SecretType.SURF)
 
     pikachu.attack()
     Pidgey.attack()
