@@ -1,0 +1,4 @@
+package prototypepattern
+
+class Engine {
+}
